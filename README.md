@@ -1,4 +1,4 @@
-# Kim Alyson De Leon - Portfolio
+# My Portfolio
 
 A static React portfolio with four projects, seven certificates, and a résumé PDF.
 
