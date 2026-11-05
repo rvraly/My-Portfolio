@@ -126,7 +126,7 @@ const projects = [
   },
   {
     name: "HAUrmony: A HAU University Days Concert Ticketing System",
-    category: "FRONT-END DEVELOPMENT | MOBILE APP DEVELOPMENT",
+    category: "FRONT-END DEVELOPMENT | QA OFFICER | MOBILE APP DEVELOPMENT",
     description:
       "A ticketing service for Holy Angel University's yearly University Days concert. Designed with the consumer in mind, it employs a sleek and simple user interface to streamline sales. An admin-side dashboard is available to view sales data and analytics for attendance and sales projections.",
     tools: ["Flutter", "Dart", "Supabase"],
