@@ -8,6 +8,7 @@ import {
   CodeXml as Github,
   Menu,
   FileText,
+  MonitorPlay,
 } from "lucide-react";
 
 const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
@@ -149,6 +150,7 @@ const projects = [
       "Visual Studio Code",
     ],
     image: "/projects/pantrypal.png",
+    demoUrl: "https://rvraly.github.io/PantryPal/",
   },
   {
     name: "OrangeTail: A Scheduling System for HAU's School of Computing",
@@ -326,6 +328,18 @@ export default function Home() {
                       <Github size={15} />
                       GitHub link not added
                     </span>
+                  )}
+                  {project.demoUrl && (
+                    <a
+                      className="project-link"
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MonitorPlay size={15} aria-hidden="true" />
+                      View Demo
+                      <ArrowUpRight size={16} />
+                    </a>
                   )}
                 </div>
               </article>
